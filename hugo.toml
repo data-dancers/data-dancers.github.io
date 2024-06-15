@@ -28,3 +28,7 @@ enableRobotsTXT = true
 [[params.ananke_socials]]
 name = "Discord"
 url = "https://discord.gg/xs5ztf6THf"
+
+[markup.goldmark.renderer]
+  # TODO TEMP
+  unsafe = true # Allow HTML in md files
