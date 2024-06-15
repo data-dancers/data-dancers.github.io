@@ -1,0 +1,18 @@
+<script>
+    (function() {
+      // Your custom JavaScript here
+      console.log("This is a custom JavaScript code from a shortcode!");
+  
+      // Example: Access parameters passed to the shortcode
+      var message = '{{ .Get "message" }}';
+      if (message) {
+        console.log("Message from shortcode parameter: " + message);
+      }
+  
+      // Example: Run JavaScript code when the DOM is fully loaded
+      document.addEventListener("DOMContentLoaded", function() {
+        // Your DOM-dependent code here
+        alert("Custom alert: " + message);
+      });
+    })();
+  </script>
