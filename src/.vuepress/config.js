@@ -32,7 +32,12 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    displayFooter: true,
     nav: [
+      {
+        text: 'About',
+        link: '/about/',
+      },
       {
         text: 'Guide',
         link: '/guide/',
@@ -42,9 +47,13 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'Strudel',
+        link: 'https://strudel.cc/'
+      },
+      {
+        text: 'Hydra',
+        link: 'https://hydra.ojack.xyz/'
+      },
     ],
     sidebar: {
       '/guide/': [
