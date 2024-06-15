@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Editing Video with `ffmpeg`"
 author: "Cortland Mahoney"
 ---
 
