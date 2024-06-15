@@ -7,6 +7,10 @@ on:
   # Trigger deployment manually
   workflow_dispatch:
 
+permissions:
+  contents: write  # Add this line to give write permissions to GITHUB_TOKEN
+
+
 jobs:
   docs:
     runs-on: ubuntu-latest
