@@ -19,7 +19,7 @@ enableRobotsTXT = true
 [params]
   text_color = ""
   author = ""
-  favicon = ""
+  favicon = "/images/favicon.ico"
   site_logo = ""
   description = "HERE: DD"
   background_color_class = "bg-black"
