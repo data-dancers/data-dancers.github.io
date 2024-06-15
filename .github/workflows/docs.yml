@@ -30,12 +30,10 @@ jobs:
         with:
           # choose node.js version to use
           node-version: 20
-          # cache deps for pnpm
-          cache: pnpm
 
       # run build script
       - name: Build VuePress site
-        run: pnpm docs:build
+        run: pnpm build
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
