@@ -1,4 +1,4 @@
-name: docs
+name: publish-site
 
 on:
   # Trigger deployment on every push to the main branch
@@ -32,7 +32,7 @@ jobs:
 
       # Run build script
       - name: Build VuePress site
-        run: yarn build
+        run: yarn docs:build
         env:
           NODE_OPTIONS: --openssl-legacy-provider
 
