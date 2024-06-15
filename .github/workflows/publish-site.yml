@@ -3,11 +3,11 @@ name: publish-site
 on:
   # trigger deployment on every push to main branch
   push:
-    branches: [main]
+    branches: [master]
   # trigger deployment manually
   workflow_dispatch:
 
-  
+
 permissions:
   contents: write  # Add this line to give write permissions to GITHUB_TOKEN
 
