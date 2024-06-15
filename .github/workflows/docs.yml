@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           # choose node.js version to use
-          node-version: 20
+          node-version: 12
           # cache deps for pnpm
           cache: pnpm
 
