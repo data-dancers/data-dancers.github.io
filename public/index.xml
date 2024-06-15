@@ -7,5 +7,40 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>About Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor luctus elit. Quisque sed neque dui. Nullam ac magna ut nibh auctor consequat eget sed tellus. Nulla facilisi. Nulla auctor pharetra tellus sed aliquam. Mauris tempus nisi risus, nec scelerisque massa elementum non. Duis pellentesque tortor nec orci egestas venenatis.&#xA;Praesent et metus non neque sagittis consectetur. Nam tempor tellus turpis, faucibus placerat turpis lacinia maximus. Aenean consectetur mauris at urna luctus, id fermentum nulla eleifend.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/meetups/meetups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/meetups/meetups/</guid>
+      <description>Hackathon June 16th </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/coolrobot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/coolrobot/</guid>
+      <description> Cool dancing robot </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/eulerroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/eulerroom/</guid>
+      <description>Eulerroom 2024 https://live.eulerroom.com/</description>
+    </item>
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

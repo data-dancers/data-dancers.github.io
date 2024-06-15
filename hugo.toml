@@ -2,3 +2,29 @@ baseURL = 'https://data-dancers.github.io/'
 languageCode = 'en-us'
 title = 'Data Dancers'
 theme = 'ananke'
+
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "HERE: DD"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+
+[[params.ananke_socials]]
+name = "Discord"
+url = "https://discord.gg/xs5ztf6THf"
