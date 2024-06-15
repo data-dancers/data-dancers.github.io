@@ -1,6 +1,5 @@
 ---
 title: "Data Dancers"
-description: "The best algoravers in Atlanta"
 theme_version: '2.8.2'
 cascade:
   # passdown front matter to children 
@@ -21,6 +20,7 @@ Small logo
 
 <script type="text/javascript">
 window.animHandle = 0
+const logo = document.querySelector("#logo")
 function animateLogo() {
   const r = () => Math.floor(Math.random() * 255)
   const toColor = v => "#" + v.map(c => c.toString(16).padStart(2, "0")).join("")
@@ -33,10 +33,11 @@ function animateLogo() {
     outputs[1][i] = inputs[0][i] & inputs[1][i]
   }
   // Animate the SVG
-  document.querySelector("#inputA").style.color = toColor(inputs[0])
-  document.querySelector("#inputB").style.color = toColor(inputs[1])
-  document.querySelector("#outputS").style.color = toColor(outputs[0])
-  document.querySelector("#outputC").style.color = toColor(outputs[1])
+  // inputs[0] = inputs[1] = outputs[0] = outputs[1] = [255, 255, 255]
+  logo.querySelector("#inputA").style.color = toColor(inputs[0])
+  logo.querySelector("#inputB").style.color = toColor(inputs[1])
+  logo.querySelector("#outputS").style.color = toColor(outputs[0])
+  logo.querySelector("#outputC").style.color = toColor(outputs[1])
   window.animHandle = setTimeout(animateLogo, 60 / 145 * 1000)
 }
 
