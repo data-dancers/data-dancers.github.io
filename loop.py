@@ -244,7 +244,7 @@ urls = [
   "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/20241671831_GOES16-ABI-CONUS-GEOCOLOR-625x375.jpg",
   "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/20241671836_GOES16-ABI-CONUS-GEOCOLOR-625x375.jpg",
   "https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/20241671841_GOES16-ABI-CONUS-GEOCOLOR-625x375.jpg"
-][::3]
+][::2]
 
 filenames = ["loop/" + url.split('/')[-1] for url in urls]
 
@@ -270,4 +270,4 @@ for i in range(len(images)):
     # print(i, a_weight, "vs", (i + N) % len(images), b_weight)
 
 
-combined[0].save("content/background.webp", save_all=True, append_images=combined[1:], loop=0, quality=20, duration=100) # , method=6)
+combined[0].save("static/images/background.webp", save_all=True, append_images=combined[1:], loop=0, quality=20, duration=100) # , method=6)
