@@ -12,7 +12,7 @@ permissions:
   contents: write  # Add this line to give write permissions to GITHUB_TOKEN
 
 jobs:
-  docs:
+  publish-site:
     runs-on: ubuntu-latest
 
     steps:
