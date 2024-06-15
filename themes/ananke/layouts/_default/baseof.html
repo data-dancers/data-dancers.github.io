@@ -60,6 +60,10 @@
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
+    <div style="position: fixed; top: 0; bottom: 0; right: 0; width: 100%; height: 100%; overflow: hidden; z-index: -9999">
+      <img id="background" src="/images/background.webp" style="width: 100%; height: 100%; object-fit: cover; filter: contrast(200%) brightness(30%)" />
+    </div>
+
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
