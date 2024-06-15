@@ -1,18 +1,63 @@
-<script>
-    (function() {
-      // Your custom JavaScript here
-      console.log("This is a custom JavaScript code from a shortcode!");
-  
-      // Example: Access parameters passed to the shortcode
-      var message = '{{ .Get "message" }}';
-      if (message) {
-        console.log("Message from shortcode parameter: " + message);
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+  <script>
+      let video1, video2;
+      let overlayMode = 'add'; // Change to 'multiply' to see the multiplication effect
+
+      function setup() {
+          createCanvas(640, 480);
+          video1 = createVideo(['video1.mp4']);
+          video2 = createVideo(['video2.mp4']);
+          video1.hide();
+          video2.hide();
+          video1.loop();
+          video2.loop();
       }
-  
-      // Example: Run JavaScript code when the DOM is fully loaded
-      document.addEventListener("DOMContentLoaded", function() {
-        // Your DOM-dependent code here
-        alert("Custom alert: " + message);
-      });
-    })();
+
+      function draw() {
+          background(0);
+
+          video1.loadPixels();
+          video2.loadPixels();
+          loadPixels();
+
+          for (let y = 0; y < height; y++) {
+              for (let x = 0; x < width; x++) {
+                  let index = (x + y * width) * 4;
+
+                  let r1 = video1.pixels[index + 0];
+                  let g1 = video1.pixels[index + 1];
+                  let b1 = video1.pixels[index + 2];
+                  let a1 = video1.pixels[index + 3];
+
+                  let r2 = video2.pixels[index + 0];
+                  let g2 = video2.pixels[index + 1];
+                  let b2 = video2.pixels[index + 2];
+                  let a2 = video2.pixels[index + 3];
+
+                  let r, g, b;
+
+                  if (overlayMode === 'add') {
+                      r = min(r1 + r2, 255);
+                      g = min(g1 + g2, 255);
+                      b = min(b1 + b2, 255);
+                  } else if (overlayMode === 'multiply') {
+                      r = (r1 * r2) / 255;
+                      g = (g1 * g2) / 255;
+                      b = (b1 * b2) / 255;
+                  }
+
+                  pixels[index + 0] = r;
+                  pixels[index + 1] = g;
+                  pixels[index + 2] = b;
+                  pixels[index + 3] = 255;
+              }
+          }
+          updatePixels();
+      }
   </script>
+</body>
