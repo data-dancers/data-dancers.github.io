@@ -6,13 +6,39 @@ cascade:
   # featured_image: '/images/background.webp'
 ---
 
-Welcome to Data Dancers, an Atlanta based live coding collective founded in 2023.
+Data Dancers 
 
-We perform at algoraves and collaborate on various creative projects blending code with artistic expression. Meeting monthly, we collaborate with a diverse array of artists, musicians, programmers, hackers, and writers, combining these disciplines in creative ways.
+Atlanta based livecoding collective
+
+# WE ARE 
+
+We perform and collaborate on many creative projects blending code with artistic expression. Meeting monthly, Dancers collaborate with a diverse array of artists, musicians, programmers, hackers, and writers. 
+
+WE LEARN
+WE HACK
+WE PLAY
 
 Our collective is inclusive and open to everyone, regardless of experience. Whether you're a seasoned coder or just curious, we invite you to join us. Connect with us on [Discord](https://discord.gg/xs5ztf6THf) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
 
-*What is an algorave?* Read more here https://algorave.com/about/
+# WITH YOU
+
+Ready to get started? You can here now!
+
+If you lean towards visual art (like painting, photography, systems digrams) then **Hydra** is a great place to start!
+| Technologies: Javascript, Camera (optional)
+
+{{< button text="Go To Hydra" link="https://hydra.ojack.xyz" newtab="true">}}
+
+If music is more your swing, try Strudel! 
+| Technologies: Javascript, MIDI Instruments (optional)
+
+{{< button text="Go To Strudel" link="https://strudel.cc/"  newtab="true">}}
+
+# & THE WORLD
+
+ALGORAVING
+
+Read more here https://algorave.com/about/
 
 
 <!--
