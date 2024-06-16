@@ -34,4 +34,4 @@ Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at
 {{< disco_robot  >}} 
 
 
-{{< da-da_robot >}} 
+{{<inline-image src="/images/roboto.gif" >}} 
