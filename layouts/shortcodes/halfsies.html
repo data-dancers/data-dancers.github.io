@@ -1,0 +1,8 @@
+<div class="halfsies-container">
+    <div class="halfsies-column">
+        {{ .Get "left" | markdownify | safeHTML }}
+    </div>
+    <div class="halfsies-column">
+        {{ .Get "right" | markdownify | safeHTML }}
+    </div>
+</div>
