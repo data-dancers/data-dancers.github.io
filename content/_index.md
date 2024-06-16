@@ -29,6 +29,9 @@ Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at
 🏁✴️🏁✴️🏁✴️🏁
 
 
-{{< inline-image src="/images/roboto.gif" >}} 
+{{< disco_robot  >}} 
 {{< inline-image src="/images/qr-code-dd-website.png" width="175" height="175"  caption="https://datadancers.live" >}} 
-{{< inline-image src="/images/roboto.gif" >}} 
+{{< disco_robot  >}} 
+
+
+{{< da-da_robot >}} 
