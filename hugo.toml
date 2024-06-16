@@ -33,7 +33,3 @@ enableRobotsTXT = true
   description = "Atlanta Livecoders"
   background_color_class = "bg-transparent"
   recent_posts_number = 3
-
-[markup.goldmark.renderer]
-  # TODO TEMP
-  unsafe = true # Allow HTML in md files
