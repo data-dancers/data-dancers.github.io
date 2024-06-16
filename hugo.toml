@@ -19,9 +19,15 @@ enableRobotsTXT = true
 [menus]
   [[menus.main]]
     name = "Discord"
-    weight = 5
+    weight = 10
     identifier = "discord"
     url = "https://discord.gg/xbvw77Jvt2"
+
+  [[menus.main]]
+    name = "Github"
+    weight = 20
+    identifier = "github"
+    url = "https://github.com/data-dancers/data-dancers.github.io"
 
 # All menu items defined this way will link externally -> new tab
 
