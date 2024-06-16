@@ -16,6 +16,15 @@ enableRobotsTXT = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[menus]
+  [[menus.main]]
+    name = "Discord"
+    weight = 5
+    identifier = "discord"
+    url = "https://discord.gg/xs5ztf6THf"
+
+# All menu items defined this way will link externally -> new tab
+
 [params]
   text_color = "near-white"
   author = ""
@@ -24,10 +33,6 @@ enableRobotsTXT = true
   description = "HERE: DD"
   background_color_class = "bg-transparent"
   recent_posts_number = 3
-
-[[params.ananke_socials]]
-name = "Discord"
-url = "https://discord.gg/xs5ztf6THf"
 
 [markup.goldmark.renderer]
   # TODO TEMP
