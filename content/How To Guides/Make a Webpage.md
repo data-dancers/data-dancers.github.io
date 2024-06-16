@@ -1,5 +1,6 @@
 ---
 title: "Making a Data Dancers Webpage"
+description: How to make a Hugo page with Data Dancers
 ---
 
 # Publishing Content
