@@ -24,10 +24,7 @@ Connect with us on [Discord](https://discord.gg/xbvw77Jvt2) for more details, an
 Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at **joy** and excitement that can come from **trying new things** :)
 
 
-{{< button text="Livecode NOW!" link="/livecode-now" newtab="false" >}}
-
-{{< button text="ALGORAVING" link="https://algorave.com/about/"  newtab="true" >}}
-
+{{< home_cta >}}
 
 🏁✴️🏁✴️🏁✴️🏁
 
