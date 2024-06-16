@@ -52,7 +52,9 @@
   * 1. Correct the inheritance and scaling of font size in all browsers.
   * 2. Correct the odd `em` font sizing in all browsers.
   */
- pre { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+ pre { font-family: monospace, monospace; /* 1 */ font-size: 1.5rem  }
+
+ pre code {font-size: 1.25rem !important }
  /* Text-level semantics
     ========================================================================== */
  /**
@@ -72,7 +74,7 @@
   * 1. Correct the inheritance and scaling of font size in all browsers.
   * 2. Correct the odd `em` font sizing in all browsers.
   */
- code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1em; /* 2 */ }
+ code, kbd, samp { font-family: monospace, monospace; /* 1 */ font-size: 1.5rem; /* 2 */ }
  /**
   * Add the correct font size in all browsers.
   */
