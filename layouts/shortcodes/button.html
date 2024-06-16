@@ -1,0 +1,14 @@
+{{ $link := .Get "link" }}
+{{ $text := .Get "text" }}
+{{ $newtab := .Get "newtab" | default "false" }}
+{{ $target := "" }}
+
+{{ if eq $newtab "true" }}
+    {{ $target = "_blank" }}
+{{ end }}
+
+<a href="{{ $link }}" target="{{ $target }}">
+    <button class="styled-button">
+        {{ $text }}
+    </button>
+</a>
