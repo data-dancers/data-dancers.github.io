@@ -10,7 +10,6 @@ theme_version: '2.8.2'
 Atlanta livecoding collective
 
 
-<!-- ## WE ARE  -->
 
 Collabs and performance drive us as we blend **code** with **artistic expression**. 
 
@@ -24,6 +23,15 @@ Collabs and performance drive us as we blend **code** with **artistic expression
 Whether you're a **seasoned coder** or **just curious**, we invite you to join us! 
 
 
+Connect with us on [Discord](https://discord.gg/xs5ztf6THf) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
+
+
+Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at **joy** and excitement that can come from **trying new things** :)
+
+
+{{< button text="Livecode NOW!" link="/livecode-now" newtab="false" >}}
+
+{{< button text="ALGORAVING" link="https://algorave.com/about/"  newtab="true" >}}
 
 
 🏁✴️🏁✴️🏁✴️🏁

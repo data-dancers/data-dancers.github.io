@@ -1,36 +1,16 @@
 ---
 title: "Livecode Now!"
 ---
-
 ### Try livecoding now! ✨IT'S FUN✨
 
-🏁⚡🏁⚡🏁⚡🏁
+These two **free tools** are the **easiest** way to get started. All you need is a **web browser** and some **curiosity**! 
 
-### Visual
+{{< hydra_strudel >}}
 
-If you lean towards _visual art_ (like painting, photography, systems digrams) then **Hydra** is a great place to start!
-
-**language**: Javascript🏁✴️🏁✴️🏁✴️🏁
-
-
-{{< button text="Go To Hydra" link="https://hydra.ojack.xyz" newtab="true">}}
-
-
-🏁❇️🏁❇️🏁❇️🏁
+If you need **help**, there's a few **options**:
+- Ask us your question in Discord
+- Check the documentation for [Strudel](https://strudel.cc/workshop/first-sounds/) or [Hydra](https://hydra.ojack.xyz/api/)
+- Google around and see what you find
 
 
 
-### Audio
-
-If music is more your _swing_, try **Strudel**! 
-
-**language**: Javascript
-
-{{< button text="Go To Strudel" link="https://strudel.cc/"  newtab="true">}}
-
-🏁✴️🏁✴️🏁✴️🏁
-
-
-Connect with us on [Discord](https://discord.gg/xs5ztf6THf) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
-
-{{< button text="ALGORAVING" link="https://algorave.com/about/"  newtab="true" >}}
