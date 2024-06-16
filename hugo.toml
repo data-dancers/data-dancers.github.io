@@ -30,7 +30,7 @@ enableRobotsTXT = true
   author = ""
   favicon = "/images/favicon.ico"
   site_logo = ""
-  description = "HERE: DD"
+  description = "Atlanta Livecoders"
   background_color_class = "bg-transparent"
   recent_posts_number = 3
 
