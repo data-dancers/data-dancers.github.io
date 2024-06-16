@@ -1,4 +1,40 @@
 /** let's go wild! add ur styles here *******/
+/* Disco Robot Container */
+.disco-robot {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: fit-content;
+  padding: 20px;
+  background: linear-gradient(45deg, #ff00cc, #ffcc00, #00ff66, #00ccff, #ff3399, #ff0066);
+  background-size: 300% 300%;
+  animation: gradientBackground 6s ease infinite, colorPulse 3s ease infinite;
+}
+
+/* Time-based background animation */
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Time-based color modulation animation */
+@keyframes colorPulse {
+  0%, 100% {
+    filter: saturate(3) contrast(1);
+  }
+  50% {
+    filter: saturate(5) contrast(2);
+  }
+}
+
+.da-da-robot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: saturate(1) contrast(4);
+}
+
 
 /* Button Container to align buttons side by side */
 .button-container {
