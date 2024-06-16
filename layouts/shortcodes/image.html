@@ -1,1 +1,10 @@
-<img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" width="{{ .Get "width" }}" height="{{ .Get "height" }}" class="custom-image">
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $caption := .Get "caption" }}
+
+<img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" class="custom-image">
+{{ if $caption }}
+  <small>{{ $caption }}</small>
+{{ end }}
