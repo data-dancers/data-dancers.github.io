@@ -23,7 +23,7 @@ Collabs and performance drive us as we blend **code** with **artistic expression
 Whether you're a **seasoned coder** or **just curious**, we invite you to join us! 
 
 
-Connect with us on [Discord](https://discord.gg/xs5ztf6THf) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
+Connect with us on [Discord](https://discord.gg/xbvw77Jvt2) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
 
 
 Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at **joy** and excitement that can come from **trying new things** :)
