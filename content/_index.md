@@ -13,9 +13,9 @@ Atlanta livecoding collective
 
 Collabs and performance drive us as we blend **code** with **artistic expression**. 
 
-### WE LEARN
-
 ### WE HACK
+
+### WE LEARN
 
 ### WE PLAY
 
