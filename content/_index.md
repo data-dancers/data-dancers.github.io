@@ -26,8 +26,6 @@ Whether you're a **seasoned coder** or **just curious**, we invite you to join u
 
 ### Try livecoding now! ✨IT'S FUN✨
 
-
-
 🏁⚡🏁⚡🏁⚡🏁
 
 ### Visual
@@ -58,6 +56,15 @@ If music is more your _swing_, try **Strudel**!
 Connect with us on [Discord](https://discord.gg/xs5ztf6THf) for more details, and visit our [Meetup page](https://data-dancers.github.io/meetups/) for information on upcoming meetups.
 
 {{< button text="ALGORAVING" link="https://algorave.com/about/"  newtab="true" >}}
+
+
+🏁✴️🏁✴️🏁✴️🏁
+
+
+{{< image src="/images/roboto.gif" >}} 
+{{< image src="/images/roboto.gif" >}} 
+{{< image src="/images/roboto.gif" >}} 
+
 
 <!--
 Small logo
