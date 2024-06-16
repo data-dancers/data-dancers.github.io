@@ -7,6 +7,7 @@
     <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link rel="stylesheet" href="/css/da-da.css"> 
     <link rel="stylesheet" href="/css/layout.css"> 
+    <link rel="stylesheet" href="/css/theme.css"> 
     <link rel="stylesheet" href="/css/video-embed.css"> 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
