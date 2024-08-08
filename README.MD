@@ -18,7 +18,6 @@ hugo serve -D
 
 The `-D` parameter means it will include "draft" pages. It is kind of optional but good to include.
 
-
 ## Contributing Guidelines
 
 Want to get started? Check out our [wiki](https://github.com/data-dancers/data-dancers.github.io/wiki/Contributing-Guidelines)!

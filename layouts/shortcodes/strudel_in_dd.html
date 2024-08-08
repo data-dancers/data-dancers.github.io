@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@strudel/repl@latest"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #strudel {
+            margin-bottom: 20px;
+        }
+        #play {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: left !important;">Strudel</h2>
+    <div id="strudel" style="text-align: left !important;"></div>
+    <button style="text-align: left !important;" id="play">play</button>
+    <button style="text-align: left !important; "id="stop">stop</button>
+    <p style="text-align: left !important;">This code example is only a fraction of the things strudel can do, check out the documentation to find out more cool ways to produce some noise! <a href="https://strudel.cc/workshop/getting-started/" target="_blank">Strudel Docs</a></p>
+    <script>
+        const repl = document.createElement('strudel-editor');
+        repl.setAttribute('code', `setcps(1)
+n("<0 1 2 3 4>*8").scale("G4:minor")
+.s("gm_lead_6_voice")
+.clip(sine.range(.2,.8).slow(8))
+.jux(rev)
+.room(2)
+.sometimes(add(note("12")))
+.lpf(perlin.range(200,20000).slow(4))`);
+        document.getElementById('strudel').append(repl);
+        console.log(repl.editor);
+        document.getElementById('play').addEventListener('click', () => repl.editor.evaluate());
+        document.getElementById('stop').addEventListener('click', () => repl.editor.stop());
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- import the latest version of hydra synth-->
+  <script src="https://unpkg.com/hydra-synth"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .form-group input {
+      width: 120px; 
+    }
+
+    .button-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    #hydra-container {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- User input form -->
+  <div class="form-container">
+    <div class="form-group">
+      <label for="freq">Frequency:</label>
+      <input type="number" id="freq" name="freq" step="0.1" value="10">
+    </div>
+    <div class="form-group">
+      <label for="sync">Sync:</label>
+      <input type="number" id="sync" name="sync" step="0.1" value="0.1">
+    </div>
+    <div class="form-group">
+      <label for="offset">Offset:</label>
+      <input type="number" id="offset" name="offset" step="0.1" value="0.8">
+    </div>
+    <div class="form-group">
+      <label for="color1">Color 1:</label>
+      <input type="number" id="color1" name="color1" step="0.1" value="10">
+    </div>
+    <div class="form-group">
+      <label for="color2">Color 2:</label>
+      <input type="number" id="color2" name="color2" step="0.1" value="0.1">
+    </div>
+    <div class="form-group">
+      <label for="rotation">Rotation:</label>
+      <input type="number" id="rotation" name="rotation" step="0.1" value="0.8">
+    </div>
+    <div class="form-group">
+      <label for="rotationsp">Rotation Speed:</label>
+      <input type="number" id="rotationsp" name="rotationsp" step="0.1" value="0.8">
+    </div>
+  </div>
+
+  <div class="button-container">
+    <button onclick="applyOscillator()">Apply Oscillator</button>
+    <button onclick="applyFeedback()">Apply Feedback</button>
+    <button onclick="resetFeedback()">Remove Feedback</button>
+  </div>
+  
+  <canvas id="hydra-container" width="800" height="600"></canvas>
+  
+  <p>This is just a basic showcase of what Hydra is capable of producing. For a mind blowing experience check out the real deal: <a href="https://hydra.ojack.xyz" target="_blank">Hydra</a></p>
+  
+  <script>
+    // Function to create a new Hydra instance
+    function createHydraInstance() {
+      return new Hydra({
+        canvas: document.getElementById("hydra-container"),
+        detectAudio: false
+      });
+    }
+
+    // Initialize Hydra instance
+    var hydra = createHydraInstance();
+    
+    function applyOscillator() {
+      const freq = parseFloat(document.getElementById('freq').value);
+      const sync = parseFloat(document.getElementById('sync').value);
+      const offset = parseFloat(document.getElementById('offset').value);
+      const rotation = parseFloat(document.getElementById('rotation').value);
+      const rotationsp = parseFloat(document.getElementById('rotationsp').value);
+      const color1 = parseFloat(document.getElementById('color1').value);
+      const color2 = parseFloat(document.getElementById('color2').value);
+      
+      osc(freq, sync, offset).rotate(rotation, rotationsp).kaleid().color(color1, color2).out();
+    }
+    
+    function applyFeedback() {
+      src(o1)
+        .layer(src(o0).mask(shape(4, 0.4, 0)))
+        .scrollX([0.005, -0.005])
+        .scrollY(0.005)
+        .out(o1);
+      
+      render(o1);
+    }
+
+    function resetFeedback() {
+      src(o1)
+        .layer(src(o0).mask(shape(0, 0, 0)))
+        .scrollX([0, 0])
+        .scrollY(0)
+        .out(o1);
+      render(o1);
+    }
+  </script>
+</body>
+</html>
