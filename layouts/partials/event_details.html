@@ -3,4 +3,6 @@
 <p>Location: {{ .Params.location }}</p>
 <p>Time: {{ .Params.time }}</p>
 <p>Note: {{ .Params.note }}</p>
+{{ if (isset .Params.ticket_url) }}
 <p>[Find tickets at]({{ .Params.ticket_url }})</p>
+{{ end }}
