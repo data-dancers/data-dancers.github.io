@@ -1,0 +1,8 @@
+<p>Title: {{ .Title }}</p>
+<p>Date: {{ .Date.Format "January 2, 2006" }}</p>
+<p>Location: {{ .Params.location }}</p>
+<p>Time: {{ .Params.time }}</p>
+<p>Note: {{ .Params.note }}</p>
+{{ if (isset .Params.ticket_url) }}
+<p>[Find tickets at]({{ .Params.ticket_url }})</p>
+{{ end }}
