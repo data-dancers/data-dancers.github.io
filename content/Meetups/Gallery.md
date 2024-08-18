@@ -2,7 +2,7 @@
 title: "Gallery"  
 ---
 
-{{< inline-image src="/images/meetup-pics/dd-meetup-3.jpg" caption="Third meetup" width="256" height="256">}} 
+{{< inline-image src="/images/meetup-pics/dd-meetup-3.1.jpg" caption="Third meetup" width="256" height="256">}} 
 
 {{< inline-image src="/images/meetup-pics/dd-meetup-3.2.jpg" caption="Preparing for algorave" width="256" height="256">}} 
 
