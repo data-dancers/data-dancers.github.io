@@ -1,6 +1,11 @@
-<p>Title: {{ .Page.Title }}</p>
-<p>Date: {{ .Page.Date.Format "January 2, 2006" }}</p>
-<p>Location: {{ .Page.Params.location }}</p>
-<p>Time: {{ .Page.Params.time }}</p>
-<p>Note: {{ .Page.Params.note }}</p>
+<p><strong>Date: </strong>{{ .Page.Date.Format "January 2, 2006" }}</p>
+<p><strong>Location: </strong>{{ .Page.Params.location }}</p>
+{{ if .Page.Params.time}}
+<p><strong>Time: </strong> {{ .Page.Params.time }}</p>
+{{ end }}
+{{ if .Page.Params.note }}
+<p><strong>Note: </strong> {{ .Page.Params.note }}</p>
+{{ end }}
+{{ if .Page.Params.ticket_url }}
 <p>Find tickets <a href='{{ .Page.Params.ticket_url }}'> here</a></p>
+{{ end }}
