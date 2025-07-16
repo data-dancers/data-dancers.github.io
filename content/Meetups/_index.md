@@ -2,4 +2,4 @@
 title: "Meetups"  
 ---
 
-See our photo gallery [here](/meetups/gallery)
+Come meet other like-minded artists, musicians, and enthusiasts at our in-person meetups!

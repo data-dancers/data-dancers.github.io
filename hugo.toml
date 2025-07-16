@@ -24,7 +24,7 @@ enableRobotsTXT = true
 
   [[menus.main]]
     name = "Gallery"
-    url = "/meetups/gallery/"
+    url = "/gallery/"
     weight = 2
 
   [[menus.main]]
