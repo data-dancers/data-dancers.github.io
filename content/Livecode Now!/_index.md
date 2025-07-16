@@ -1,7 +1,7 @@
 ---
 title: "Livecode Now!"
 ---
-### Try livecoding now! ✨IT'S FUN✨
+### Try live coding now! ✨IT'S FUN✨
 
 These two **free tools** are the **easiest** way to get started. All you need is a **web browser** and some **curiosity**.
 

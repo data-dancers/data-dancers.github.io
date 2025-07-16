@@ -5,7 +5,7 @@ theme_version: '2.8.2'
 
 {{< half_adder >}}
 
-Atlanta livecoding collective
+Atlanta live coding collective
 
 Collabs and performance drive us as we blend **code** with **artistic expression**. 
 

@@ -50,7 +50,7 @@ There are more fields available for increasing the resolution of your contributi
 Does your **content** fit into one of these **categories**? 
 - Algoraving
 - How To Guides
-- Livecoding
+- Live coding
 - Meetups
 
 Then we've got a **category** for you!
