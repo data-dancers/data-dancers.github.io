@@ -14,8 +14,12 @@
         <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0" "pl0" }}">
           {{ range .Site.Menus.main }}
           <li class="list f5 f3-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
-            <a href="{{.URL}}"{{if eq .Page nil }} target="_blank" rel="noopener noreferrer"{{ end }} class="nav-link"></a>
-            <a class="hover-white no-underline white-90" href="{{ .URL }}"{{if eq .Page nil}} target="_blank" rel="noopener noreferrer" {{ end }} title="{{ i18n "pageTitle" . }}">
+            <a
+              class="hover-white no-underline white-90"
+              href="{{ .URL }}"
+              {{ if .Params.opensNewTab }} target="_blank" rel="noopener noreferrer"{{ end }}
+              title="{{ i18n "pageTitle" . }}"
+            >
               {{ .Name }}
             </a>
           </li>

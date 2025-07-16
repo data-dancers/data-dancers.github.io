@@ -7,7 +7,6 @@ buildFuture = true
 resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -17,17 +16,34 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [menus]
+
   [[menus.main]]
-    name = "Discord"
-    weight = 10
+    name = "Meetups"
+    url = "/meetups/"
+    weight = 1
+
+  [[menus.main]]
+    name = "Gallery"
+    url = "/meetups/gallery/"
+    weight = 2
+
+  [[menus.main]]
+    name = "Github⧉"
+    weight = 4
+    identifier = "github"
+    url = "https://github.com/data-dancers/data-dancers.github.io"
+
+    [menus.main.params]
+      opensNewTab = true
+
+  [[menus.main]]
+    name = "Discord⧉"
+    weight = 5
     identifier = "discord"
     url = "https://discord.gg/xbvw77Jvt2"
 
-  [[menus.main]]
-    name = "Github"
-    weight = 20
-    identifier = "github"
-    url = "https://github.com/data-dancers/data-dancers.github.io"
+    [menus.main.params]
+      opensNewTab = true
 
 # All menu items defined this way will link externally -> new tab
 
