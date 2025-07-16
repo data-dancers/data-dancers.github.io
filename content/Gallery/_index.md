@@ -2,6 +2,8 @@
 title: "Gallery"
 ---
 
+Gallery
+
 {{< inline-image src="/images/meetup-pics/dd-meetup-6.3.jpg" caption="Meetup k+3" width="256" height="256">}}
 
 {{< inline-image src="/images/meetup-pics/dd-meetup-7.jpg" caption="Meetup 7?" width="256" height="256">}}
