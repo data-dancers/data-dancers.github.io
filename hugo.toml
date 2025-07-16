@@ -2,6 +2,7 @@ baseURL = 'https://data-dancers.github.io/'
 languageCode = 'en-us'
 title = 'Data Dancers'
 theme = 'da-da'
+buildFuture = true
 
 resourceDir = "../resources"
 
