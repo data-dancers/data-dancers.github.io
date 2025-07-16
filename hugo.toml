@@ -37,15 +37,6 @@ enableRobotsTXT = true
       opensNewTab = true
 
   [[menus.main]]
-    name = "Github⧉"
-    weight = 4
-    identifier = "github"
-    url = "https://github.com/data-dancers/data-dancers.github.io"
-
-    [menus.main.params]
-      opensNewTab = true
-
-  [[menus.main]]
     name = "Discord⧉"
     weight = 5
     identifier = "discord"
