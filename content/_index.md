@@ -33,5 +33,4 @@ Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at
 {{< inline-image src="/images/qr-code-dd-website.png" width="175" height="175"  caption="https://data-dancers.github.io/" >}} 
 {{< disco_robot  >}} 
 
-
-{{<inline-image src="/images/roboto.gif" >}} 
+{{< da-da_robot  >}}

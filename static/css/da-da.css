@@ -10,6 +10,13 @@
   background-size: 300% 300%;
   animation: gradientBackground 6s ease infinite, colorPulse 3s ease infinite;
 }
+.disco-robot img {
+  filter: saturate(1) contrast(4);
+}
+
+.da-da-robot img {
+  height: 420px;
+}
 
 /* Time-based background animation */
 @keyframes gradientBackground {
@@ -27,14 +34,6 @@
     filter: saturate(5) contrast(2);
   }
 }
-
-.da-da-robot img {
-  display: block;
-  width: 100%;
-  height: auto;
-  filter: saturate(1) contrast(4);
-}
-
 
 /* Button Container to align buttons side by side */
 .button-container {
