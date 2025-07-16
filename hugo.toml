@@ -28,6 +28,15 @@ enableRobotsTXT = true
     weight = 2
 
   [[menus.main]]
+    name = "Instagram⧉"
+    weight = 3
+    identifier = "instagram"
+    url = "https://instagram.com/datadancers"
+
+    [menus.main.params]
+      opensNewTab = true
+
+  [[menus.main]]
     name = "Github⧉"
     weight = 4
     identifier = "github"
