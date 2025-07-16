@@ -7,7 +7,6 @@ resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 12
 googleAnalytics = ""
 enableRobotsTXT = true
 
@@ -39,3 +38,6 @@ enableRobotsTXT = true
   description = "Atlanta Livecoders"
   background_color_class = "bg-transparent"
   recent_posts_number = 12
+
+[pagination]
+  pagerSize = 100
