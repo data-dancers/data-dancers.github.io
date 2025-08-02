@@ -2,13 +2,18 @@
 
 The website
 
-## To run
+## Requirements
 
-Hugo is a golang project! If you don't have go, install it here according to your system specs:
+This site runs with Hugo, a golang project! If you don't have go, install it here according to your system specs:
 
-[hugo installatin instructions](https://gohugo.io/installation/)
+[hugo installation instructions](https://gohugo.io/installation/)
 
-## Local server 
+```sh
+# macos
+brew install hugo
+```
+
+## Local server
 
 To start the local development server with live reloading:
 
