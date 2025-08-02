@@ -28,7 +28,7 @@ enableRobotsTXT = true
     weight = 2
 
   [[menus.main]]
-    name = "Instagram⧉"
+    name = "Instagram ⧉"
     weight = 3
     identifier = "instagram"
     url = "https://instagram.com/datadancers"
@@ -37,7 +37,7 @@ enableRobotsTXT = true
       opensNewTab = true
 
   [[menus.main]]
-    name = "Discord⧉"
+    name = "Discord ⧉"
     weight = 5
     identifier = "discord"
     url = "https://discord.gg/xbvw77Jvt2"
