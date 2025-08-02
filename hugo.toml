@@ -18,8 +18,8 @@ enableRobotsTXT = true
 [menus]
 
   [[menus.main]]
-    name = "Meetups"
-    url = "/meetups/"
+    name = "Events"
+    url = "/events/"
     weight = 1
 
   [[menus.main]]
