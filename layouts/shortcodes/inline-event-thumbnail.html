@@ -1,0 +1,13 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $href := .Get "href" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $caption := .Get "caption" }}
+
+<div class="inline-image">
+  <a href="{{ $href }}"><img src="{{ $src }}" alt="{{ $alt }}" width="{{ $width }}" height="{{ $height }}" class="custom-image"/></a>
+  {{ if $caption }}
+  <a href="{{ $href }}"><small>{{ $caption }}</small></a>
+  {{ end }}
+</div>
