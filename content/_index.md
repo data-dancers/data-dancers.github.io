@@ -28,11 +28,6 @@ Embrace **uncertainty** and be **ready** to **learn**. You will be **amazed** at
 
 🏁✴️🏁✴️🏁✴️🏁
 
-**Upcoming shows**
-
-{{< inline-event-thumbnail src="/images/event-promo/pafl-algorave-2025.png" href="/rave" height="350px" alt="Algorave 2025" >}}
-
-🏁✴️🏁✴️🏁✴️🏁
 
 {{< disco_robot  >}} 
 {{< inline-image src="/images/qr-code-dd-website.png" width="175" height="175"  caption="https://data-dancers.github.io/" >}} 
